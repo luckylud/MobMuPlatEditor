@@ -1685,7 +1685,7 @@ public class MMPWindow implements ChangeListener, ActionListener, FocusListener,
         	String androidFontName = (String)propLabelAndroidFontTypeBox.getSelectedItem();
         	MMPLabel currLabel = (MMPLabel)controller.currentSingleSelection;
         	if(currLabel!=null){
-        		currLabel.setAndroidFontName(androidFontName);
+        		currLabel.setAndroidFontFileName(androidFontName);
         	}
         }
      
